@@ -56,7 +56,6 @@ const PintarError = () =>(
 
             error && <PintarError /> 
         }
-
         
       <form  onSubmit={handleSubmit}>
         <input 
