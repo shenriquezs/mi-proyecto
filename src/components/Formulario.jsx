@@ -34,7 +34,6 @@ const handleSubmit = e => {
 
     const {todoName,todoDescripcion}= todo;
     if(!todoName.trim() || !todoDescripcion.trim()){
-
         setError(true);
     return;    
     }
