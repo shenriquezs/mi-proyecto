@@ -42,7 +42,6 @@ const handleSubmit = e => {
     console.log(todo);
 };
 
-
 const PintarError = () =>(
 
     <div className="alert alert-danger"> Campos obligatorios</div>
